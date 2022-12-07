@@ -12,6 +12,7 @@ import (
 var Build string
 
 func main() {
+	println("LOCAL VERSION")
 	if Build != "" {
 		version.DelveVersion.Build = Build
 	}
